@@ -13,7 +13,7 @@ class Stack {
         return this.items.pop()
     }
 
-    // Exibe no elemento que está no topo
+    // Exibe o elemento que está no topo
     peek() {
         return this.items[this.items.length - 1]
     }
@@ -28,7 +28,7 @@ class Stack {
         return this.items.length
     }
 
-    // Limpa todos a pilha
+    // Limpa toda a pilha
     clear() {
         this.items = []
     }
